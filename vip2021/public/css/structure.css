@@ -1,0 +1,336 @@
+body {
+    font-family: "Segoe UI", "DejaVu Sans", Verdana, sans-serif;
+    background-image: -webkit-linear-gradient(#9f0909, #4e0000);
+    background-image: -o-linear-gradient(#9f0909, #4e0000);
+    background-image: linear-gradient(#9f0909, #4e0000);
+    background-size: 1rem 200rem;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
+
+.monBody #container {
+    width: 1300px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.monBody #header {
+    height: 140px;
+    background-color: #000;
+    color: #fff;
+}
+
+.menu_haut {
+    background-color: #000;
+    color: #fff;
+    margin-top: -13px;
+    width: 100%;
+}
+
+.menu_haut ul {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.menu_haut li {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+}
+
+.menu_haut li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+    border: 0 none;
+}
+
+.menu_haut li a:hover {
+    color: #000;
+    background: #eee;
+}
+
+.monBody #contenu {
+    padding: 20px;
+    overflow: auto;
+}
+
+.monBody #footer {
+    padding: 0 10px;
+    font-size: 0.8em;
+    text-align: center;
+    height: 150px;
+    background: url(/image/footer.jpg) no-repeat;
+}
+
+.baniere {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    border: none;
+}
+
+.baniere img {
+    border: none;
+}
+
+#LogoNode {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: #0072ff;
+}
+
+.traitVertical {
+    border-left: 1px white solid;
+}
+
+/* Répertoire */
+.starRepertoire {
+    display: inline-block;
+    margin: 30px;
+}
+
+#listeLettreVip {
+    font-size: 1.6em;
+}
+
+#selectionLettresDetails {
+    text-align: right;
+}
+
+#pageDetails {
+    text-align: left;
+}
+
+#photoProfilVip {
+    height: 200px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+#descriptionVip {
+    text-align: justify;
+}
+
+#photosVip {
+    width: 100%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.tooltip {
+    text-decoration: none;
+    position: relative;
+}
+
+.tooltip span {
+    display: none;
+
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background: white;
+}
+
+.tooltip span img {
+    float: left;
+    margin: 0px 8px 8px 0;
+}
+
+.tooltip img {
+    height: 100px;
+}
+
+.tooltip span {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.tooltip:hover span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 650px;
+    min-height: 128px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: 32px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+/* Article */
+.tableNomVip {
+    width: 10%;
+    float: right;
+    margin-right: 150px;
+}
+
+.tableNomVip table {
+    border-collapse: collapse;
+    border: solid 1px;
+    text-align: center;
+}
+
+.tableNomVip th {
+    border: solid 1px;
+    background-color: black;
+    padding: 10px 75px 0px 75px;
+}
+
+.tableNomVip a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+}
+
+.contenuArticle {
+    width: 70%;
+}
+
+fieldset {
+    text-align: justify;
+}
+
+.nomVipArticle {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.basGrisArticle {
+    background-color: #d3d8df;
+}
+
+.basGrisArticle a {
+    color: black;
+    float: right;
+    text-decoration: underline;
+}
+
+#textPasDArticle {
+    display: inline-block;
+}
+
+#imgPasDArticle {
+    max-height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 150px;
+}
+
+/* Album */
+.nomVipAlbum {
+    text-decoration: underline;
+}
+
+.containerglob {
+    float: right;
+    margin-right: 150px;
+    width: 25%;
+}
+
+.album {
+    width: 80px;
+    height: 100px;;
+    margin-right: 15px;
+}
+
+#easyPaginate {
+    width: 400px;
+}
+
+#easyPaginate a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.first {
+    margin-right: 35px;
+    margin-left: -20px;
+    color: black;
+    border: solid 1px;
+    padding: 0 2px;
+}
+
+.last {
+    margin-left: 30px;
+    color: black;
+    border: solid 1px;
+    padding: 0 2px;
+}
+
+.prev {
+    margin-right: 15px;
+    color: black;
+    border: solid 1px;
+    padding: 0 2px;
+}
+
+.next {
+    margin-left: 160px;
+    color: black;
+    border: solid 1px;
+    padding: 0 2px;
+}
+
+.page {
+    display: none;
+}
+
+.divGlobComm {
+    border: solid 1px;
+    width: 50%;
+}
+
+.np {
+    text-align: center;
+}
+
+#imgAlbum {
+    width: 150px;
+    height: 200px;
+}
+
+#comm {
+    text-align: center;
+}
+
+#fieldsetComm {
+    margin: 10px;
+}
+
+#choisirAlbum {
+    margin: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #9F0909;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #9F0909;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: white
+}

@@ -1,0 +1,20 @@
+{{> listeVipArticles}}
+
+<div class="contenuArticle">
+    {{#each article}}
+        <fieldset>
+            <legend>Article</legend>
+            <p class="nomVipArticle">{{this.VIP_PRENOM}} {{this.VIP_NOM}}</p>
+            {{#ifCond this.ARTICLE_RESUME '!=' null}}
+                <p>{{this.ARTICLE_RESUME}}</p>
+                <p class="basGrisArticle">[Ajouté le {{formatDate this.ARTICLE_DATE_INSERT  'D MMMM YYYY' }}]
+                    <a href="/repertoire/vip/{{this.VIP_NUMERO}}">voir sa fiche</a>
+                </p>
+            {{else}}
+                <p id="textPasDArticle">Ce vip ne possède aucun article.</p>
+            <p class="basGrisArticle"><a href="/repertoire/vip/{{this.VIP_NUMERO}}">voir sa fiche</a></p>
+            {{/ifCond}}
+        </fieldset>
+        <br>
+    {{/each}}
+</div>

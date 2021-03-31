@@ -1,0 +1,32 @@
+<div class="containerglob">
+    <div id="easyPaginate">
+        {{#each listePhotos}}
+            <a href="/album/{{this.VIP_NUMERO}}"><img class="album" src="/images/vip/{{this.PHOTO_ADRESSE}}"></a>
+        {{/each}}
+    </div>
+</div>
+
+<div id="easyPaginatePhoto" class="divGlobComm">
+    {{#if commentairePhotos}}
+        {{#each commentairePhotos}}
+            <div class="">
+                <p class="nomVipAlbum np">{{this.VIP_PRENOM}} {{this.VIP_NOM}}</p>
+                <img src="/images/vip/{{this.PHOTO_ADRESSE}}" alt="image Album" id="imgAlbum">
+                <fieldset id="fieldsetComm">
+                    <legend>Commentaire</legend>
+                    <p id="comm">
+                        {{#if this.PHOTO_COMMENTAIRE}}
+                            {{this.PHOTO_COMMENTAIRE}}
+                        {{else}}
+                            <i>Cette photo ne possède pas de commentaire</i>
+                        {{/if}}
+                    </p>
+                </fieldset>
+            </div>
+        {{/each}}
+    {{else}}
+        <p id="choisirAlbum">
+            Choisissez un vip pour voir l'album le concernant
+        </p>
+    {{/if}}
+</div>
