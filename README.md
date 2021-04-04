@@ -10,29 +10,25 @@ Veuillez à télécharger ou clone le repository sur votre machine.
 
 ### Pré-requis
 
-Vous devez installer sur votre machine a minima NodeJs
+Vous devez installer sur votre machine a minima NodeJs et un environnement de développement serveur comme MAMP ou XAMP.
 
 ### Installation
 
-Les étapes pour installer votre programme....
-
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+Démarrer MAMP puis sur votre navigateur, aller a l'adresse ``http://localhost/phpMyAdmin/`` et créer une nouvelle base de données nommée ``vip``.
+Insérer dans la base de données ce [fichier](SQL/vip.sql).
+Pour finir, lancer une console, mettez-vous dans le répertoire du projet et exécutait la commande ``npm i``.
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+Démarrer MAMP et en etant toujours dans le repertoire du projet, faite ``node app`` puis lancé votre navigateur a l'adresse ``http://localhost:6800/``
 
 ## Fabriqué avec
 
 * [NodeJs](https://nodejs.org/) - Plateforme logicielle
 * [Express](https://expressjs.com/) - Framework NodeJs
 * [Handlebars](https://handlebarsjs.com/) - Moteur de template
-* [WebStorm](https://www.jetbrains.com/fr-fr/webstorm/) - 
+* [MAMP](https://www.mamp.info/fr/) - Environnement serveur
+* [WebStorm](https://www.jetbrains.com/fr-fr/webstorm/) - IDE 
 
 ## Auteurs
 * **Anthony AUDOIN** _alias_ [@Anthony-AUDOIN](https://github.com/Anthony-AUDOIN)
