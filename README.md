@@ -14,13 +14,13 @@ Vous devez installer sur votre machine a minima NodeJs et un environnement de d�
 
 ### Installation
 
-Démarrer MAMP puis sur votre navigateur, aller a l'adresse ``http://localhost/phpMyAdmin/`` et créer une nouvelle base de données nommée ``vip``.
+Démarrer MAMP puis sur votre navigateur, aller à l'adresse ``http://localhost/phpMyAdmin/`` et créer une nouvelle base de données nommée ``vip``.
 Insérer dans la base de données ce [fichier](SQL/vip.sql).
-Pour finir, lancer une console, mettez-vous dans le répertoire du projet et exécutait la commande ``npm i``.
+Pour finir, lancez une console, mettez-vous dans le répertoire du projet et exécutait la commande ``npm i``.
 
 ## Démarrage
 
-Démarrer MAMP et en etant toujours dans le repertoire du projet, faite ``node app`` puis lancé votre navigateur a l'adresse ``http://localhost:6800/``
+Démarrer MAMP et en étant toujours dans le répertoire du projet, faite ``node app`` puis lancé votre navigateur à l'adresse ``http://localhost:6800/``
 
 ## Information base de données
 
