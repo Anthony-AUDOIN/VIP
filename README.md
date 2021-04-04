@@ -22,6 +22,16 @@ Pour finir, lancer une console, mettez-vous dans le répertoire du projet et ex�
 
 Démarrer MAMP et en etant toujours dans le repertoire du projet, faite ``node app`` puis lancé votre navigateur a l'adresse ``http://localhost:6800/``
 
+## Information base de données
+
+| Propriétés  | Valeur         |
+| :--------------- |:---------------:|
+| host  |   localhost        |
+| user  | bd             |  
+| password  | bede          |  
+| database  | vip          |  
+| port  | 3306          |  
+
 ## Fabriqué avec
 
 * [NodeJs](https://nodejs.org/) - Plateforme logicielle
